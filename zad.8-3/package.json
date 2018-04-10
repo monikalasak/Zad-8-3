@@ -6,6 +6,7 @@
   "scripts": {
   "test": "npm-run-all test:*",
   "test:html": "globstar nu-html-checker *.html",
+  "test:js": "globstar nu-html-checker *.js",
 
   "init-project": "npm install && npm-run-all init:*",
   "init:dirs": "mkdirp sass css vendor images js",
